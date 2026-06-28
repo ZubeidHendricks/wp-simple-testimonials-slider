@@ -1,4 +1,4 @@
-=== Testimonials Slider ===
+=== Simple Testimonials Slider ===
 Contributors: zubeidhendricks
 Tags: testimonials, slider, reviews, carousel, social proof
 Requires at least: 5.8

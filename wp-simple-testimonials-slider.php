@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name:       Testimonials Slider
- * Plugin URI:        https://zubeidhendricks.dev/wp-plugins/testimonials-slider
+ * Plugin Name:       Simple Testimonials Slider
+ * Plugin URI:        https://zubeidhendricks.dev/wp-plugins/simple-testimonials-slider
  * Description:        Show rotating customer testimonials with a simple shortcode — names, roles and star ratings, no jQuery.
  * Version:           1.0.0
  * Requires at least: 5.8
@@ -10,7 +10,7 @@
  * Author URI:        https://zubeidhendricks.dev
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       testimonials-slider
+ * Text Domain:       simple-testimonials-slider
  *
  * @package TestimonialsSlider
  */
@@ -22,27 +22,27 @@ define( 'TESTIMONIALS_SLIDER_VERSION', '1.0.0' );
 require_once __DIR__ . '/includes/factory-core.php';
 
 /**
- * Testimonials Slider.
+ * Simple Testimonials Slider.
  */
 final class TestimonialsSlider extends ZubFactory_Plugin {
 
 	private $styled = false;
 
 	protected function configure() {
-		$this->slug    = 'testimonials-slider';
-		$this->title   = 'Testimonials Slider';
+		$this->slug    = 'simple-testimonials-slider';
+		$this->title   = 'Simple Testimonials Slider';
 		$this->version = TESTIMONIALS_SLIDER_VERSION;
 	}
 
 	protected function settings_fields() {
 		return array(
 			'accent'   => array(
-				'label'   => __( 'Accent colour', 'testimonials-slider' ),
+				'label'   => __( 'Accent colour', 'simple-testimonials-slider' ),
 				'type'    => 'color',
 				'default' => '#2271b1',
 			),
 			'interval' => array(
-				'label'   => __( 'Auto-rotate every (seconds)', 'testimonials-slider' ),
+				'label'   => __( 'Auto-rotate every (seconds)', 'simple-testimonials-slider' ),
 				'type'    => 'number',
 				'default' => 5,
 			),
@@ -95,7 +95,7 @@ final class TestimonialsSlider extends ZubFactory_Plugin {
 					<?php foreach ( $this->items as $i => $t ) : ?>
 						<button type="button" class="<?php echo 0 === $i ? 'is-active' : ''; ?>"
 							data-i="<?php echo esc_attr( $i ); ?>"
-							aria-label="<?php echo esc_attr( sprintf( __( 'Show testimonial %d', 'testimonials-slider' ), $i + 1 ) ); ?>"></button>
+							aria-label="<?php echo esc_attr( sprintf( __( 'Show testimonial %d', 'simple-testimonials-slider' ), $i + 1 ) ); ?>"></button>
 					<?php endforeach; ?>
 				</div>
 			<?php endif; ?>

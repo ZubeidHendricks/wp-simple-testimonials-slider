@@ -7,4 +7,4 @@
 
 defined( 'WP_UNINSTALL_PLUGIN' ) || exit;
 
-delete_option( 'testimonials-slider_options' );
+delete_option( 'simple-testimonials-slider_options' );

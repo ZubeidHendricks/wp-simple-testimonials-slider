@@ -1,4 +1,4 @@
-# Testimonials Slider
+# Simple Testimonials Slider
 
 Show rotating customer testimonials with a simple shortcode — names, roles and
 star ratings, no jQuery. Part of the
@@ -18,7 +18,7 @@ Configurable accent colour and rotation speed.
 
 ## Settings
 
-**Settings → Testimonials Slider** — accent colour, auto-rotate interval.
+**Settings → Simple Testimonials Slider** — accent colour, auto-rotate interval.
 
 ## Free vs Pro
 
