@@ -1,5 +1,7 @@
 # Simple Testimonials Slider
 
+🌐 **[Browse all plugins](https://zubeidhendricks.github.io/wp-plugins-site/)** · ⬇️ **[Download .zip](https://github.com/ZubeidHendricks/wp-simple-testimonials-slider/releases/latest/download/simple-testimonials-slider.zip)**
+
 Show rotating customer testimonials with a simple shortcode — names, roles and
 star ratings, no jQuery. Part of the
 [Zub Plugin Factory](https://github.com/ZubeidHendricks/wp-plugin-factory).
